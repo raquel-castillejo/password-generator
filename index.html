@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Prueba Técnica</title>
+  </head>
+  <body>
+    <main class="practice">
+      <div class="password">
+        <p id="final-password" class="password__txt">Your password here</p>
+      </div>
+
+      <div class="password-options">
+        <div class="password-length">
+          <label for="slider" class="password-length__label"
+            >Character Length
+            <span
+              class="password-length__output"
+              id="number-of-characters-text"
+            >
+              0
+            </span></label
+          >
+
+          <input
+            type="range"
+            class="password-length__slider"
+            id="number-of-characters"
+            min="1"
+            max="20"
+          />
+        </div>
+
+        <div class="characters-included">
+          <div class="characters-included__option">
+            <input
+              class="characters-included__checkbox"
+              type="checkbox"
+              id="uppercase"
+              value="uppercase"
+            />
+            <label class="characters-included__label" for="uppercase"
+              >Include Uppercase Letters</label
+            >
+          </div>
+
+          <div class="characters-included__option">
+            <input
+              class="characters-included__checkbox"
+              type="checkbox"
+              id="lowercase"
+              value="lowercase"
+            />
+            <label class="characters-included__label" for="lowercase"
+              >Include Lowercase Letters</label
+            >
+          </div>
+
+          <div class="characters-included__option">
+            <input
+              class="characters-included__checkbox"
+              type="checkbox"
+              id="numbers"
+              value="numbers"
+            />
+            <label class="characters-included__label" for="numbers"
+              >Include Numbers</label
+            >
+          </div>
+
+          <div class="characters-included__option">
+            <input
+              class="characters-included__checkbox"
+              type="checkbox"
+              id="symbols"
+              value="symbols"
+            />
+            <label class="characters-included__label" for="symbols"
+              >Include Symbols</label
+            >
+          </div>
+        </div>
+
+        <div class="strength">
+          <p class="strenght__txt">Strength</p>
+          <p id="strenght-level" class="strenght__level">Weak</p>
+        </div>
+
+        <button class="button" id="generate-password-button">
+          Generate
+          <span class="button__img"
+            ><img
+              src="assets/images/icon-arrow-right.svg"
+              alt="arrow pointing to the right"
+          /></span>
+        </button>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>

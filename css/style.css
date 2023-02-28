@@ -1,0 +1,148 @@
+:root {
+  --dark-gray: hsl(248, 15%, 11%);
+  --medium-gray: hsl(247, 11%, 15%);
+  --light-gray: hsl(0, 0%, 75%);
+  --green: hsl(127, 100%, 82%);
+  --white: hsl(0, 0%, 90%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  background-color: var(--dark-gray);
+  color: var(--white);
+
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+
+.practice {
+  position: absolute;
+  width: 95vw;
+  max-width: 500px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media screen and (min-width: 500px) {
+  .practice {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.password {
+  background-color: var(--medium-gray);
+  margin-bottom: 25px;
+}
+
+.password__txt {
+  margin: 0;
+  padding: 17px 20px;
+
+  font-size: 1.2rem;
+}
+
+.password-options {
+  background-color: var(--medium-gray);
+  padding: 17px 20px;
+}
+
+.password-length {
+  margin-bottom: 20px;
+}
+
+.password-length__label {
+  display: block;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.password-length__output {
+  position: absolute;
+  right: 2px;
+  top: -8px;
+
+  font-size: 1.5rem;
+}
+
+.password-length__slider {
+  display: block;
+  width: 100%;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.characters-included {
+  margin-bottom: 30px;
+}
+
+.characters-included__option {
+  display: block;
+  margin-bottom: -3px;
+}
+
+.characters-included__checkbox {
+  position: relative;
+  bottom: 1px;
+
+  border: none;
+  cursor: pointer;
+}
+
+.characters-included__label {
+  cursor: pointer;
+  position: relative;
+  left: -7px;
+
+  font-size: 0.9rem;
+}
+
+.strength {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 30px;
+
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.strenght__txt,
+.strenght__level {
+  margin: 0;
+}
+
+.button {
+  width: 100%;
+  border-radius: 0px;
+  border: none;
+  background-color: var(--green);
+
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  font-size: 0.9rem;
+
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.button--disabled {
+  background-color: var(--light-gray);
+  color: hsl(0, 0%, 55%);
+  cursor: auto;
+}
+
+.button__img {
+  position: relative;
+  right: 2px;
+  top: 1px;
+}
