@@ -24,7 +24,7 @@ A combinar y aplicar todos los conocimientos de JS dados en el curso.
 
 ## Vista previa del proyecto
 
-Si quieres echar un vistazo al proyecto, te recomiendo:
+Si quieres echar un vistazo al proyecto, te recomiendo: </br>
 ![Captura del proyecto](https://github.com/raquel-castillejo/032-password-generator/blob/main/my-design.png)
 
 ## Autor ✒️
