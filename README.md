@@ -4,7 +4,7 @@
 
 ## Ejemplo en vivo
 
-- [URL de github pages de este proyecto](https://raquel-castillejo.github.io/032-password-generator/)
+- [raquel-castillejo.github.io/password-generator/](https://raquel-castillejo.github.io/password-generator/)
 
 ## Descripción 📑
 
@@ -30,8 +30,6 @@ Si quieres echar un vistazo al proyecto, te recomiendo: </br>
 ## Autor ✒️
 
 **Raquel Castillejo Méndez**
-
-- [raquelcastillejo@pm.me](raquelcastillejo@pm.me)
 - [LinkedIn](https://www.linkedin.com/in/raquel-castillejo-mendez)
 
 ## Instalación
